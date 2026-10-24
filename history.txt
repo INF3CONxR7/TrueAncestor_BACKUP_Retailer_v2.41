@@ -1,0 +1,112 @@
+TrueAncestor BACKUP Retailer
+
+v2.41
+1. Fix a fatal craching issue in adding Game Backups. Sorry for the careless testing.
+2. Update user manual.
+
+v2.40
+1. Add prepared slot function, now users can inject their prepared files directly without copying to workspace. 
+2. Update ps3xploit to Imn7's modded version, injection works on the latest OFW 4.85.
+3. Update user manual.
+
+v2.30
+1. Fix insert disc issue in converting engine.
+2. Add set output path function, now backup can be generated to external drive directly.
+3. Add generate LIC.DAT/EDAT function.
+4. Rename 'Final Comfirmation' switch to 'Wait before Injection'.
+5. Change instructions to user manual.
+6. Fix a bug in extracting backup with IDPS.
+7. Add splitted files check, not allow to add game backup or folder containing splitted files.
+
+v2.20
+1. Improve game backup converting compability.
+2. Add convert game backup function.
+3. Re-organize main menu.
+
+v2.15
+1. Improve userid detection.
+
+v2.10
+1. Add inject section switch, contents can be injected to protected section if idps.bin is provided.
+2. Remove direct injection switch.
+3. Add extract backup function.
+4. Fix a bug in detecting userid.
+5. Update instructions.
+
+v2.01
+1. Minor code update.
+
+v2.00
+1. Support to inject to new backup without leaking any private info.
+2. Automatically create/fix LIC.DAT in game backup.
+3. Fix a bug in game backup converting.
+4. Fix a bug in pkg injection.
+5. Update instructions.
+
+TrueAncestor BACKUP Injector
+
+v1.8b
+1. Add game backup injection support.
+2. Automatically inject patch for game backup.
+3. Add OFW Compability to instructions.
+
+v1.70
+1. Use new method to detect LicenseID from pkg file.
+2. Remove lics_cid.txt from tool folder.
+
+v1.60
+1. New LicenseID from pkg file is added to lics_cid.txt automatically.
+2. Remove detect LicenseID in pkg file operation.
+
+v1.50
+1. Fix auto-generate edat issue for pkg file, really works now.
+2. Change LicenseID.txt to lics_cid.txt & update the content.
+
+v1.45
+1. Change the method of detecting userid.
+2. Add rebuild database switch.
+3. Update instructions.
+
+v1.40
+1. Fix auto-generate edat issue for pkg file again.
+2. Add detect LicenseID in pkg file operation.
+3. Add LicenseID.txt in tool folder.
+4. Update instructions.
+
+v1.35 (not released)
+1. Add pause in all adding content lists.
+2. Add direct injection switch.
+3. Add allow debug pkg switch.
+4. Allow starting injection when nothing is added.
+
+v1.31
+1. Fix auto-generate edat issue for pkg file.
+
+v1.30
+1. Add pkg file injection support.
+
+v1.25
+1. Add pause when showing per 25 rows for game list.
+
+v1.20
+1. Add showing user name on select user name list.
+2. Fix crash issue when analyzing userid.
+
+v1.11
+1. Fix some display issue when showing game title.
+2. Do not show game title on first time in order to show game list fast.
+
+v1.10 (not released)
+1. Add avatar file injection support.
+2. Add showing game title on add game list.
+
+v1.01
+1. Fix the issue when adding all edat/theme files.
+
+v1.00 Features:
+1. Inject files to backup without idps.
+2. Auto-detect userid.
+3. Auto-generate unlock edat file for purchasable game, mainly C00 type.
+4. Auto-rebuild database after restoring backup.
+5. Easy manage your backup and add contents.
+6. Support game folder, edat file & theme file injection.
