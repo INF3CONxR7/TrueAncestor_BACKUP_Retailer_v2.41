@@ -1,8 +1,8 @@
-# TrueAncestor BACKUP Retailer v2.30
+# TrueAncestor BACKUP Retailer v2.41
 
 **TrueAncestor BACKUP Retailer** est un utilitaire Windows pour **PlayStation 3**, créé par **JjKkYu**. Il permet d’extraire et de modifier les sauvegardes système de la console, d’y intégrer des contenus compatibles et de préparer de nouveaux backups.
 
-**Version :** 2.30  
+**Version :** 2.41  
 **Plateforme :** PS3  
 **Système :** Windows  
 **Développeur original :** JjKkYu
@@ -14,16 +14,12 @@
 - Préparation de nouveaux backups contenant les éléments sélectionnés.
 - Conversion des backups de jeux compatibles.
 - Choix du dossier de sortie pour les sauvegardes générées.
+- Injection directe de fichiers préparés grâce à la fonction **Prepared Slot**, sans copie préalable dans le dossier de travail.
 
-## Nouveautés de la version 2.30
+## Nouveautés de la version 2.41
 
-- Correction d’un problème de demande d’insertion du disque dans le moteur de conversion.
-- Ajout du choix du chemin de sortie, permettant de générer le backup directement sur un disque externe.
-- Ajout d’une fonction de génération de fichiers `LIC.DAT` et `EDAT`.
-- Correction d’un bug lors de l’extraction d’un backup avec l’IDPS.
-- Détection des fichiers fractionnés et blocage de l’ajout des dossiers qui en contiennent.
-- Renommage de l’option **Final Comfirmation** en **Wait before Injection**.
-- Remplacement des instructions par un manuel utilisateur.
+- Correction d’un plantage fatal lors de l’ajout de backups de jeux.
+- Mise à jour du manuel utilisateur.
 
 ## Utilisation
 
@@ -43,7 +39,7 @@
 
 - **Développeur original :** JjKkYu
 - [Présentation du développeur sur PSX-Place](https://www.psx-place.com/threads/trueancestor-backup-retailer-v2-00.11687/)
-- [Historique des versions et changelog v2.30 reproduit sur PSX-Core](https://psx-core.ru/forum/34-2479-2)
+- [Nouveautés des versions 2.40 et 2.41 sur PSX-Place](https://www.psx-place.com/threads/trueancestor-backup-retailer-v2-40.28399/)
 
 Les droits sur le logiciel restent ceux de leurs détenteurs respectifs.
 
